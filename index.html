@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Vichare — Front-End Developer & Software Engineer</title>
+    <meta name="description" content="Portfolio of Vishal Vichare — Front-End Developer, Software Engineer, and Data-Driven Problem Solver based in the UK.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-mesh" id="bgMesh"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">V<span>.</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge animate-in">Available for opportunities</div>
+            <h1 class="hero-name animate-in">Vishal Vichare</h1>
+            <div class="hero-typed animate-in">
+                <span id="typedText"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-description animate-in">
+                Building intuitive, data-driven interfaces that bridge complex backend logic with seamless user experiences.
+            </p>
+            <div class="hero-cta animate-in">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-stats animate-in">
+                <div class="stat">
+                    <span class="stat-value" data-count="3">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" data-count="5">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">MSc</span>
+                    <span class="stat-label">Southampton</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text animate-in">
+                    <p>
+                        I'm a <strong>Front-End Developer & Software Engineer</strong> with a passion for turning complex problems into elegant, user-friendly interfaces. With a background spanning materials engineering at <strong>UBC</strong> and a current MSc in <strong>Data & Decision Analytics at Southampton</strong>, I bring a unique analytical lens to every design decision.
+                    </p>
+                    <p>
+                        My experience at <strong>Infosys</strong> taught me enterprise-grade delivery. My research at <strong>NIO UK</strong> pushed me to automate the impossible. And my personal project <strong>Clair</strong> proved I can independently architect a full-stack product from concept to deployment.
+                    </p>
+                    <p>
+                        I thrive at the intersection of <strong>design and data</strong> — building interfaces that aren't just beautiful, but smart. Whether it's a gesture-driven swipe UI, a real-time analytics dashboard, or an AI-powered automation pipeline, I ship products that users love.
+                    </p>
+                </div>
+                <div class="about-highlights animate-in">
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">🎓</div>
+                        <div class="highlight-text">
+                            <strong>Dean's List Award</strong>
+                            <span>University of Southampton</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">🌍</div>
+                        <div class="highlight-text">
+                            <strong>International Experience</strong>
+                            <span>Canada · UK · India</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">⚡</div>
+                        <div class="highlight-text">
+                            <strong>600+ Hours Saved</strong>
+                            <span>Through automation at NIO</span>
+                        </div>
+                    </div>
+                    <div class="highlight-card glass">
+                        <div class="highlight-icon">📱</div>
+                        <div class="highlight-text">
+                            <strong>Cross-Platform Apps</strong>
+                            <span>iOS & Android via React Native</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">02</span>
+                <h2 class="section-title">Tech Stack</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid animate-in">
+                <div class="skill-category glass">
+                    <h3 class="skill-cat-title">Front-End & Mobile</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+                        <div class="skill-item"><i class="devicon-react-original"></i><span>React Native</span></div>
+                        <div class="skill-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+                        <div class="skill-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+                        <div class="skill-item"><i class="devicon-react-original"></i><span>Expo</span></div>
+                        <div class="skill-item"><i class="devicon-javascript-plain"></i><span>Zustand</span></div>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3 class="skill-cat-title">Backend & Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                        <div class="skill-item"><i class="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
+                        <div class="skill-item"><i class="devicon-supabase-plain"></i><span>Supabase</span></div>
+                        <div class="skill-item"><i class="devicon-flask-original"></i><span>Flask</span></div>
+                        <div class="skill-item"><i class="devicon-spring-original"></i><span>Spring Boot</span></div>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3 class="skill-cat-title">Tools & Cloud</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class="devicon-git-plain"></i><span>Git</span></div>
+                        <div class="skill-item"><i class="devicon-figma-plain"></i><span>Figma</span></div>
+                        <div class="skill-item"><i class="devicon-googlecloud-plain"></i><span>GCP</span></div>
+                        <div class="skill-item"><i class="devicon-vscode-plain"></i><span>VS Code</span></div>
+                        <div class="skill-item"><i class="devicon-r-plain"></i><span>R</span></div>
+                        <div class="skill-item"><i class="devicon-opencv-plain"></i><span>OpenCV</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">03</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">MSc. Researcher</h3>
+                                <span class="timeline-company">NIO UK · Southampton</span>
+                            </div>
+                            <span class="timeline-date">Jun – Sept 2026</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Wrapped complex backend Python and META API scripts into an accessible "AI Agent Skill", creating a seamless user tool that saved <strong>600+ hours</strong> of engineering labor.</li>
+                            <li>Engineered an automated OpenCV image classification system to evaluate geometric occlusion in structural stress models.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">Automation</span><span class="tag">AI Agents</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item animate-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Software Associate</h3>
+                                <span class="timeline-company">Infosys Ltd. · Vancouver, Canada</span>
+                            </div>
+                            <span class="timeline-date">Oct 2022 – Oct 2023</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Developed automated web-scraping tools using DOM parsing for market data, eliminating manual entry workflows.</li>
+                            <li>Translated business requirements into frontend and backend technical specifications using Agile SDLC.</li>
+                            <li>Managed data persistence and API integrity for backend services, ensuring high availability for live applications.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">JavaScript</span><span class="tag">REST APIs</span><span class="tag">SQL</span><span class="tag">Agile</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item animate-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Project Engineering Co-op</h3>
+                                <span class="timeline-company">DuBois Chemicals · Vancouver, Canada</span>
+                            </div>
+                            <span class="timeline-date">Sep 2020 – Jun 2021</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Designed centralized tracking dashboards to standardize KPI progress for tier-1 industrial clients (ADNOC, Barrick Gold).</li>
+                            <li>Acted as primary technical point of contact, communicating performance metrics to site managers and executive leadership.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Dashboards</span><span class="tag">Data Viz</span><span class="tag">Stakeholders</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item animate-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Engineering Intern (Risk)</h3>
+                                <span class="timeline-company">TATA Power · Mumbai, India</span>
+                            </div>
+                            <span class="timeline-date">May – Aug 2019</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Engineered a predictive failure detection system using historical sensor data, improving risk detection rates by <strong>20%</strong>.</li>
+                            <li>Analyzed SCADA system data to map grid operations and produce detailed reports.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span><span class="tag">SCADA</span><span class="tag">Predictive Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">04</span>
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass animate-in">
+                    <div class="project-image">
+                        <img src="assets/images/clair.jpg" alt="Clair App" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/VishalV28" target="_blank" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Full-Stack Mobile App</span>
+                        <h3 class="project-title">Clair — AI Automotive Marketplace</h3>
+                        <p class="project-desc">Cross-platform mobile app with a custom gesture-driven swipe interface, cinematic dark-mode UI, real-time recommendation engine, and 40,000+ vehicle database with sub-second pagination.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span><span class="tag">Expo</span><span class="tag">Supabase</span><span class="tag">Python</span><span class="tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass animate-in">
+                    <div class="project-image">
+                        <img src="assets/images/dashboard.jpg" alt="Job Search Dashboard" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/VishalV28" target="_blank" class="project-link">View Project →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Web Application</span>
+                        <h3 class="project-title">Job Search Automation Dashboard</h3>
+                        <p class="project-desc">Automated job tracking system that scrapes Outlook emails, uses LLM-based AI parsing for data extraction, and displays everything in a glassmorphism dashboard with inline editing and real-time filters.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS/JS</span><span class="tag">Flask</span><span class="tag">Python</span><span class="tag">Gemini AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass animate-in">
+                    <div class="project-image">
+                        <img src="assets/images/nlp.jpg" alt="NLP Topic Modeling" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/VishalV28" target="_blank" class="project-link">View on GitHub →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Data Science Research</span>
+                        <h3 class="project-title">NLP & Topic Modeling: Academic Trend Analysis</h3>
+                        <p class="project-desc">Engineered an NLP pipeline to clean and tokenize 9,385 academic abstracts, applied LDA for latent theme extraction, and built predictive models for citation impact analysis.</p>
+                        <div class="project-tags">
+                            <span class="tag">R</span><span class="tag">NLP</span><span class="tag">LDA</span><span class="tag">Random Forest</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass animate-in">
+                    <div class="project-image">
+                        <img src="assets/images/tfl.jpg" alt="TfL Rail Analysis" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/VishalV28" target="_blank" class="project-link">View on GitHub →</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-type">Data Engineering & Analytics</span>
+                        <h3 class="project-title">TfL Rail Demand Analysis — London</h3>
+                        <p class="project-desc">Built automated ETL pipelines to process 2.5M+ rows of Transport for London data. Applied PCA and regression modeling to categorize stations and prove connectivity as the primary demand driver.</p>
+                        <div class="project-tags">
+                            <span class="tag">R</span><span class="tag">ETL</span><span class="tag">PCA</span><span class="tag">2.5M Rows</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">05</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card glass animate-in">
+                    <div class="edu-icon">🎓</div>
+                    <div class="edu-info">
+                        <h3>MSc Data & Decision Analytics</h3>
+                        <span class="edu-school">University of Southampton, UK</span>
+                        <span class="edu-date">Sep 2025 – Present</span>
+                        <p class="edu-details">Dean's List Award. Coursework: Data Mining, Statistical Methods, Neural Networks, Project Risk Management.</p>
+                    </div>
+                </div>
+                <div class="edu-card glass animate-in">
+                    <div class="edu-icon">🎓</div>
+                    <div class="edu-info">
+                        <h3>BASc Materials Engineering</h3>
+                        <span class="edu-school">University of British Columbia, Vancouver, Canada</span>
+                        <span class="edu-date">Sep 2017 – May 2022</span>
+                        <p class="edu-details">Focus: Process Optimization, Failure Analysis, Engineering Design. Led UBC WasteNauts & SOLAR engineering teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">06</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid animate-in">
+                <div class="contact-text">
+                    <p class="contact-heading">Interested in working together?</p>
+                    <p>I'm currently looking for front-end development and software engineering opportunities in the UK. Whether you have a role, a project, or just want to chat — I'd love to hear from you.</p>
+                    <div class="contact-links">
+                        <a href="mailto:vishalvich@hotmail.com" class="contact-link glass">
+                            <span class="contact-link-icon">✉️</span>
+                            <span>vishalvich@hotmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/vishalvichare" target="_blank" class="contact-link glass">
+                            <span class="contact-link-icon">🔗</span>
+                            <span>linkedin.com/in/vishalvichare</span>
+                        </a>
+                        <a href="https://github.com/VishalV28" target="_blank" class="contact-link glass">
+                            <span class="contact-link-icon">💻</span>
+                            <span>github.com/VishalV28</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form glass" action="https://formspree.io/f/placeholder" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span>© 2026 Vishal Vichare. Built with vanilla HTML, CSS & JS.</span>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/vishalvichare" target="_blank">LinkedIn</a>
+                <a href="https://github.com/VishalV28" target="_blank">GitHub</a>
+                <a href="mailto:vishalvich@hotmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
