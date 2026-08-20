@@ -1,27 +1,7 @@
-# Vishal Vichare — Portfolio Website
+# Vishal Vichare - Portfolio Website
 
-A modern, reactive personal portfolio built with vanilla HTML, CSS & JavaScript. No build step required — just deploy and go.
+A modern, reactive personal portfolio built with vanilla HTML, CSS & JavaScript.
 
-## 🚀 Quick Deploy to Netlify
-
-1. Go to [app.netlify.com](https://app.netlify.com)
-2. Click **"Add new site"** → **"Deploy manually"**
-3. Drag and drop this entire `portfolio/` folder onto the page
-4. Done! Your site is live.
-
-## 🏗️ Project Structure
-
-```
-portfolio/
-├── index.html           # Single-page app
-├── css/
-│   └── style.css        # All styles (dark glassmorphism theme)
-├── js/
-│   └── main.js          # Animations, typed text, interactions
-├── assets/
-│   └── images/          # Project screenshots
-└── README.md
-```
 
 ## ✨ Features
 
